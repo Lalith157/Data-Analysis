@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify , render_template, make_response
 from flask_cors import CORS
 import subprocess
 import shutil  #  Import shutil to check if Nmap exists
-import re  # Import regex module for filtering open ports
+import re  # Import regex module for filtering open portsqeui
 import requests  # ✅ Import requests to fetch headers  4541254fgfdf
 from data_base import init_db, get_db_session , CompanyInfo, Vulnerabilities, runExtraQueries
 import os
