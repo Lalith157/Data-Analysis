@@ -561,7 +561,7 @@ def run_xsstrike(domain,entry_id):
                 if not output:
                     print(f":warning: Dalfox returned empty output, retrying ({attempt}/{MAX_RETRIES})...")
                     time.sleep(2)  # wait 2 sec before retry
-                    continue
+                    continue #dsfesdfs;
 
                 # 🛡️ Try parsing JSON safely
                 try:
