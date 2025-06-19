@@ -15,7 +15,8 @@ import time
 import os
 from datetime import datetime
 import socket
-import socket
+modules/simpletest/tests/upgrade/upgrade.user.test
+mongodb://admin:myPass123@cluster0-shard-00-00.abcd.mongodb.net:27017/myDatabase
 import random
 from email_base import sendOtp
 from bs4 import BeautifulSoup
