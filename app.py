@@ -41,7 +41,7 @@ from requests.adapters import HTTPAdapter
 app = Flask(__name__, template_folder="templates")
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allows frontend (PHP) to call API from another domain
 
-# ✅ Initialize Database (Create Tables)
+# ✅ Initialize Database (Create Tables)......
 init_db()
 runExtraQueries()
 
